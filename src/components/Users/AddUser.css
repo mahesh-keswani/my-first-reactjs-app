@@ -1,0 +1,54 @@
+.formBody{
+    margin-top: 20px;
+    margin-left: 30%;
+    background-color: white;
+    margin-right: 30%;
+    box-shadow: 10px 10px 8px #888888;
+    padding: 15px;
+    border-radius: 25px;
+
+}
+
+.formBody label{
+    color: black;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.formBody.inValid label{
+    color: rgb(240, 17, 17);
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.formBody input{
+    margin-bottom: 10px;
+    border-radius: 5px;
+    width: 70%;
+    padding: 8px;
+}
+
+
+.formBody.inValid input{
+    margin-bottom: 10px;
+    border-radius: 5px;
+    width: 70%;
+    padding: 8px;
+    background-color: rgb(189, 114, 114);
+}
+
+.formBody button{
+    padding: 10px;
+    background-color: #651fff;
+    color: white;
+    cursor: pointer;
+    margin-left: 20%;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+html{
+    background-color: #1f1f1f;
+    font-family: 'Courier New', Courier, monospace;
+
+}
