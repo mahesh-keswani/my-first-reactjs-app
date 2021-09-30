@@ -1,0 +1,53 @@
+.tableStyle{
+    margin-top: 50px;
+    margin-left: 30%;
+    background-color: white;
+    box-shadow: 10px 10px 8px #888888;   
+    width: 40%;
+    border-radius: 5px;
+}
+
+.tableHeader{
+    font-weight: bold;
+}
+
+.tableStyle tbody tr td{
+    border: 1px solid black;
+    text-align: center;
+}
+
+.noUsers{
+    background-color: white;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 10px;
+    margin-top: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    box-shadow: 10px 10px 8px #888888; 
+    border-radius: 5px;    
+}
+
+.deleteButton{
+    padding: 10px;
+    border-radius: 3px;
+    margin: 4px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(194, 68, 68);
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    width: 120px;
+}
+
+.editButton{
+    padding: 10px;
+    border-radius: 3px;
+    margin: 4px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: orangered;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100px;   
+}
